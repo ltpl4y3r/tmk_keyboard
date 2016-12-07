@@ -32,12 +32,12 @@ const uint8_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     /*                                                                                                           */
     /*                                                                                                           */
     [0] = KEYMAP( \
-        ESC,   1,   Q,   R,   E,   R, \
+        ESC,    1,   Q,   R,   E,   R, \
         V, LSHIFT,   A,   W,   D,   F, \
-        LCTL,  2,   Z,   S,   C,   G, \
-        /*               */LCTL, SPC, \
-        /*               */   V, FN0, \
-        /*               */LCTL, SPC),
+        LCTL,   2,   Z,   S,   C,   G, \
+        /*                */LCTL, SPC, \
+        /*                */   V, FN0, \
+        /*                */LCTL, SPC),
 };
 
 

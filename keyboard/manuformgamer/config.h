@@ -1,5 +1,5 @@
 /*
-Copyright 2012 Jun Wako <wakojun@gmail.com>
+Copyright 2015 Jun Wako <wakojun@gmail.com>
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -21,15 +21,15 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 /* USB Device descriptor parameter */
 #define VENDOR_ID       0xFEED
-#define PRODUCT_ID      0x6060
+#define PRODUCT_ID      0x6464
 #define DEVICE_VER      0x0001
-#define MANUFACTURER    Jeff Gran
-#define PRODUCT         ManuForm
-#define DESCRIPTION     t.m.k. keyboard firmware for ManuForm
+#define MANUFACTURER    LtPl4y3r
+#define PRODUCT         ManuFormGamer
+#define DESCRIPTION     ManuForm Gamers Edition
 
 /* key matrix size */
-#define MATRIX_ROWS 16
-#define MATRIX_COLS 6
+#define MATRIX_ROWS 8
+#define MATRIX_COLS 3
 
 /* define if matrix has ghost */
 //#define MATRIX_HAS_GHOST
@@ -38,9 +38,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define DEBOUNCE    5
 
 /* Mechanical locking support. Use KC_LCAP, KC_LNUM or KC_LSCR instead in keymap */
-/* #define LOCKING_SUPPORT_ENABLE */
+#define LOCKING_SUPPORT_ENABLE
 /* Locking resynchronize hack */
-/* #define LOCKING_RESYNC_ENABLE */
+#define LOCKING_RESYNC_ENABLE
 
 /* key combination for command */
 #define IS_COMMAND() ( \
@@ -48,16 +48,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 )
 
 
-
-/* period of tapping(ms) */
-#define TAPPING_TERM    300
-/* tap count needed for toggling a feature */
-#define TAPPING_TOGGLE  1
-/* Oneshot timeout(ms) */
-//#define ONESHOT_TIMEOUT 1000
-
-
-//#define DEBUG_ACTION
 
 /*
  * Feature disable options
